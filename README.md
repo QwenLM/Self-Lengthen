@@ -1,4 +1,4 @@
-# Languge Models can Self-Lengthen to Generate Long Texts
+# Language Models Can Self-Lengthen to Generate Long Texts
 
 *Shanghaoran Quan, Tianyi Tang, Bowen Yu, An Yang, Dayiheng Liu, Bofei Gao, Jianhong Tu, Yichang Zhang, Jingren Zhou, Junyang Lin*
 
