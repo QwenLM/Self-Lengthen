@@ -1,0 +1,20 @@
+{
+  "gen_sft": {
+    "file_name": "gen_sft.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "ext_sft": {
+    "file_name": "ext_sft.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  }
+}

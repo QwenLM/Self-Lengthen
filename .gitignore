@@ -1,0 +1,9 @@
+results/
+iter/
+logs/
+**/gen_sft.json
+**/ext_sft.json
+**/long.jsonl
+train_config/
+*.log
+__pycache__/
