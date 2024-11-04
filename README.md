@@ -12,7 +12,7 @@ This repository contains core implementations of the **Self-Lengthen**, proposed
 
 **Self-Lengthen** is a novel and effective data-driven technique for extrapolating **long output**, designed to stimulate long-generation ability from scratch using only the LLM's intrinsic knowledge and skills. This is achieved by iteratively self-lengthening the output and inductively self-aligning to generate increasingly longer texts. By applying **Self-Lengthen**, we successfully increased the maximum output length of Qwen from 1,000 words to 8,000 words.
 
-![image](https://github.com/user-attachments/assets/be69b9e1-e2f9-41f2-93f0-fe0b975bc324)
+![image](https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/self-lengthen/self-lengthen_method.png)
 
 - **Low resource**: Self-Lengthen does not require high-quality human-written text; only a set of seed user long output instructions is needed.
 
@@ -85,7 +85,7 @@ It's quite easy to evaluate on our `LonGen` benchmark, to evaluate:
 
 ## :mag_right: Overall Results
 
-![image](https://github.com/user-attachments/assets/b56bbf6d-84c8-47a1-bc94-1a24f0195121)
+![image](https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/self-lengthen/self-lengthen_result.png)
 
 ## Citation
 
