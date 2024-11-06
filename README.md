@@ -73,7 +73,7 @@ This process helps align the model's output with desired length requirements whi
 
 ## 🎯 Evaluation: LonGen Benchmark
 
-In the `eval` directory, we provide `LonGon` benchmark to thoroughly evaluate the generated long responses under various instructions and length constraint types. Specifically, we evaluate tasks including 1) Literature and Creative Writing, 2) Academic Research, 3) Business Communication, 4) Journalism and Media, 5) Miscellaneous Professional Writing, 6) Personal Expression, and 7) Technical Documentation. The required output lengths are distributed equally in the range of 2,000 to 8,000 words, containing `about`, `range`, `above`, and `below` four types of length constraints. Depending on the actual generated responses, each type of constraint will have a different formula to calculate the length following scores.
+In the `eval` directory, we provide `LonGen` benchmark ([HF link](https://huggingface.co/datasets/quanshr/LonGen)) to thoroughly evaluate the generated long responses under various instructions and length constraint types. Specifically, we evaluate tasks including 1) Literature and Creative Writing, 2) Academic Research, 3) Business Communication, 4) Journalism and Media, 5) Miscellaneous Professional Writing, 6) Personal Expression, and 7) Technical Documentation. The required output lengths are distributed equally in the range of 2,000 to 8,000 words, containing `about`, `range`, `above`, and `below` four types of length constraints. Depending on the actual generated responses, each type of constraint will have a different formula to calculate the length following scores.
 
 It's quite easy to evaluate on our `LonGen` benchmark, to evaluate:
 
